@@ -1,0 +1,30 @@
+.background-class {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('서경대_waifu2x_art_noise3.png'); /* 배경 이미지 */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* 배경화면 고정 */
+    font-size: 2rem;
+    
+    }
+
+.img_button {
+    background-image: url('https://cdn-icons-png.flaticon.com/128/5865/5865015.png'); /* 이미지 경로 */
+    background-size: 45px 45px; /* 이미지 크기 설정 */
+    background-repeat: no-repeat; /* 이미지 반복 방지 */
+    background-position: left center; /* 이미지 위치 조정 */
+    padding-left: 55px; /* 이미지 크기 + 여백 */
+    height: 50px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex; /* 인라인 플렉스박스 사용 */
+    align-items: center; /* 수직 중앙 정렬 */
+    background-color: white; /* 기본 배경색 설정 */
+    transition: background-color 0.3s ease; /* 배경색 전환 효과 */
+}
+.img_button:hover {
+    background-color: #d3d3d3; /* 회색으로 변환 */
+}

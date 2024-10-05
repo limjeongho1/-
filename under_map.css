@@ -1,0 +1,15 @@
+.background-class {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://www.skuniv.ac.kr/share/img/page/campusmap/bmap-off.jpg'); /* 배경 이미지 */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* 배경화면 고정 */
+    font-size: 2rem;
+    
+    }    
+
+.black_color{
+    color: black;
+}

@@ -1,0 +1,38 @@
+
+.background-class {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('서경대_waifu2x_art_noise3.png'); /* 배경 이미지 */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* 배경화면 고정 */
+    font-size: 2rem;
+    
+    
+    }    
+
+.black_color{
+    color: black;
+}
+
+.button{
+    width: 200px;   /* 버튼 너비 */
+    height: 70px;   /* 버튼 높이 */
+    font-size: 16px; /* 텍스트 크기 */
+    cursor: pointer;
+}
+
+
+.margin{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* 전체 화면 높이 */
+    gap: 20px;
+}
+img {
+    width: 100%;  /* 부모 요소 크기에 맞게 조정 */
+    height: auto; /* 비율 유지 */
+}
